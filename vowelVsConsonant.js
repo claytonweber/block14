@@ -33,7 +33,10 @@ function letterChecker(letters) {
         }
     }
 
-    console.log("There are " + vowelsCount + " vowels, and " + consonantsCount + " consonants!");
+    console.log("There are " + vowelsCount + " vowels and " + consonantsCount + " consonants in the word " + letters +"!");
 }
 
-letterChecker("onomonopia");
+// letterChecker("ukelele");
+// letterChecker("awesome");
+// letterChecker("onomonopia");
+letterChecker("textbook");
